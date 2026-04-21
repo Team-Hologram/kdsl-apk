@@ -2,10 +2,6 @@
 
 import { useEffect, useState } from "react";
 
-const WHATSAPP_NUMBER = "94705716717";
-const WHATSAPP_MESSAGE =
-  "හලෝ! APK download කරන්න help කරන්න පුළුවන්ද?";
-
 export function DownloadWarningPopup() {
   const [visible, setVisible] = useState(false);
   const [leaving, setLeaving] = useState(false);
@@ -20,10 +16,6 @@ export function DownloadWarningPopup() {
     setLeaving(true);
     setTimeout(() => setVisible(false), 320);
   };
-
-  const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-    WHATSAPP_MESSAGE
-  )}`;
 
   if (!visible) return null;
 
