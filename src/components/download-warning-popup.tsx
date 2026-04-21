@@ -95,9 +95,9 @@ export function DownloadWarningPopup() {
         className="dlw-card"
         style={{
           position: "fixed",
-          bottom: "calc(24px + env(safe-area-inset-bottom, 0px))",
+          top: "50%",
           left: "50%",
-          transform: "translateX(-50%)",
+          transform: "translate(-50%, -50%)",
           width: "min(92vw, 420px)",
           background:
             "linear-gradient(145deg, rgba(15,18,48,0.98) 0%, rgba(10,14,39,0.98) 100%)",
