@@ -11,14 +11,7 @@ export function DownloadWarningPopup() {
   const [leaving, setLeaving] = useState(false);
 
   useEffect(() => {
-
-    // Show the popup only once per session
-    const alreadyShown = sessionStorage.getItem("dlwarn_shown");
-    if (alreadyShown) return;
-
-    sessionStorage.setItem("dlwarn_shown", "1");
-
-    // Small delay so the page renders first
+    // Show the popup on every page load after a short delay
     const timer = setTimeout(() => setVisible(true), 900);
     return () => clearTimeout(timer);
   }, []);
