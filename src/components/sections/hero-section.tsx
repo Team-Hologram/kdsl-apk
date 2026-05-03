@@ -7,7 +7,8 @@ function DownloadButtons({ size = "lg" }: { size?: "lg" | "md" }) {
   return (
     <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
       <a
-        href="/kdsl_v1.0.apk"
+        href="https://images.kdramasl.site/apk/kdsl_v1.0.apk"
+        download="KDSL_v1.0.apk"
         id="hero-apk-download"
         className={`btn-download inline-flex items-center justify-center gap-3 rounded-2xl text-white font-bold shadow-glow-brand animate-pulse-glow ${isLg ? "px-8 py-4 text-base" : "px-6 py-3.5 text-sm"
           }`}

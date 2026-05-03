@@ -62,7 +62,8 @@ export function StickyHeader() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <a
-              href="/kdsl_v1.0.apk"
+              href="https://images.kdramasl.site/apk/kdsl_v1.0.apk"
+              download="KDSL_v1.0.apk"
               id="header-download-btn"
               className="btn-download inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold text-white shadow-glow-brand"
               aria-label="Download KDSL APK"

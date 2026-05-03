@@ -59,7 +59,8 @@ export function CTASection() {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
           <a
-            href="/kdsl_v1.0.apk"
+            href="https://images.kdramasl.site/apk/kdsl_v1.0.apk"
+            download="KDSL_v1.0.apk"
             id="cta-primary-download"
             className="btn-download w-full sm:w-auto inline-flex items-center justify-center gap-3 px-10 py-5 rounded-2xl text-white font-bold text-lg shadow-glow-brand animate-pulse-glow"
             aria-label="Download KDSL APK"
